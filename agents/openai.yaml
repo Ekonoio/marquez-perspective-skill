@@ -1,0 +1,13 @@
+interface:
+  display_name: 马尔克斯写作顾问
+  short_description: 构思与改写文学小说，强化叙事取舍、绵长句子、关系孤独与时间厚度
+  default_prompt: 用 $garcia-marquez-perspective 构思或改写这篇小说，保留已确认的情节，强化叙事取舍、绵长句子与时间和孤独感。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
